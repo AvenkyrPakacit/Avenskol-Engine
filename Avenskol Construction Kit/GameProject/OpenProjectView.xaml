@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Avenskol_Construction_Kit.GameProject.OpenProjectView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Avenskol_Construction_Kit.GameProject"
+                      mc:Ignorable="d" Width="800"
+                  d:DesignHeight="600" d:DesignWidth="800">
+    <StackPanel Background="DarkSlateGray">
+        <StackPanel>
+            <Button Content="Open" Width="96" Margin="0,100,0,0" IsDefault="True"/>
+            <Button Content="Exit" Width="96" Margin="0,100,0,0" IsCancel="True"/>
+        </StackPanel>
+    </StackPanel>
+</UserControl>
